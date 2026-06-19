@@ -1,0 +1,10 @@
+BASE_DIR = "/srv/gruppe/students/ge83vik/cpee_logs"
+CACHE_TTL_SECONDS = 120
+PROPERTIES_URL_TEMPLATE = "https://cpee.org/flow/engine/{id}/properties/"
+
+# +/- 10 years
+TIMESHIFT_MIN_SECONDS = -315360000
+TIMESHIFT_MAX_SECONDS = 315360000
+
+DURATION_SHIFT_MIN_SECONDS = 1
+DURATION_SHIFT_MAX_SECONDS = 1000
